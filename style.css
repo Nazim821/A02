@@ -75,38 +75,25 @@
     justify-content: center;
     align-items: center; 
     background-position: center;
-    padding: 50px 20px;
-    background-size: contain;
     background-size: cover;
-    /* max-width: 1920px */
-
 }
 
-.hero-inner-content{
-    text-align: center;
-     max-width: 100%;
-}
-
-.mic-wrapper{
-    width: 350px;
-    height: 350px;
-    color: #000;
-    position: relative;
-    right: 0; top: 10%;
+.hero-container .mic-wrapper{
+    position: relative; 
 }
 .hero-circle{
     width: 350px;
     height: 350px;
-    bottom: 70px;
-    right: -98px;
+    bottom: -60px;
+    left: 99px;
     position: absolute; 
     z-index: 1;
 }
 .mic-icon{
     width: 120px;
     height: auto;
-    right: 15px;
-    top: 10px;
+    right: -336px;
+    top: -213px;
     position: absolute; 
     z-index: 2;
 }
@@ -119,55 +106,58 @@
     border-radius: 20px;
     font-weight: bold;
     font-size: 0.8em;
-    left: 410px;
-    top: 20px;
-     z-index: 3;
+    left: 375px;
+    top: -245px;
+    z-index: 3;
 }
 
-.hero-text h1 {
+.hero-container .hero-text h1 {
+    position: relative;
     color: #FFFFFF;
     font-size: 3.75em;
     font-weight: 800;
+    top: 137px;
+    left: 138px;
+
 }
 .hero-text p{
     position: relative;
-    top: 10px;
+    top: 145px;
     color: #ffffff;
 }
 .hero-btns{
     position: relative;
+    top: 175px;
     display: flex;
     justify-content: center;
     gap: 10px;
-    top: 50px;
 }
 .hero-btns .btn-spotify{
-    
     font-size: 1rem;
     font-weight: 600;
-     background: linear-gradient(to right, #f7e93f, #fb09b4);
-     border: none;
-     padding: 12px 25px;
-     border-radius: 25px;
-     display: flex;
-     align-items: center;
-    cursor: pointer;   
+    background: linear-gradient(to right, #f7e93f, #fb09b4);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    cursor: pointer; 
+
     gap: 10px
 }
 .hero-btns .btn-subscribe{
     background: transparent;
     border: 1px solid #00FF88 !important;
      color: #00ff88;
+     display: flex;
+    align-items: center;
     font-size: 1rem;
     font-weight: 600;
     border: none;
     padding: 12px 25px;
     border-radius: 25px;
-    display: flex;
-    align-items: center;
     cursor: pointer;
     gap: 10px;
-
 }
 
 /* @media screen and (max-width: 576px) {
